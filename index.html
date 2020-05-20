@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <title>NewsGrid</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav id="navbar" class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container m-auto">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.png" width="200" height="50" class="d-inline-block align-top" alt="NewsGrid" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="social navbar-nav d-none d-md-flex">
+                <a href="http://www.facebook.com" class="nav-link" target="_blank"><i
+                        class="fab fa-facebook fa-2x"></i></a>
+                <a href="http://www.twitter.com" class="nav-link" target="_blank"><i
+                        class="fab fa-twitter fa-2x"></i></a>
+                <a href="http://www.instagram.com" class="nav-link" target="_blank"><i
+                        class="fab fa-instagram fa-2x"></i></a>
+                <a href="http://www.youtube.com" class="nav-link" target="_blank"><i
+                        class="fab fa-youtube fa-2x"></i></a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold" href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- showcase -->
+    <!-- <section id="showcase">
+        <div class="container"></div>
+        <div class="showcase-container">
+            <div class="showcase-content p-4">
+                <div class="category category-sports bg-warning p-2 d-inline-block">SPORTS</div>
+                <h1 class="font-weight-bold">SOME SPORTS ARTICLE</h1>
+                <p class="lead mb-3 d-none d-md-block">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis perferendis officia nulla, mollitia enim natus facere, soluta iusto dolorem esse ducimus obcaecati repellendus aut molestiae est veritatis cupiditate modi quaerat.
+                </p>
+                <a href="article.html" class="btn btn-dark">Read More</a>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="showcase">
+        <div class="showcase-content d-flex flex-column align-items-center justify-content-center text-center">
+            <div class="category category-sports bg-warning p-2 d-inline-block rounded-circle text-danger font-weight-bold">
+                SPORTS</div>
+            <h1 class="font-weight-bold my-2">SOME SPORTS ARTICLE</h1>
+            <p class="lead mb-3">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem recusandae obcaecati quos pariatur, qui quidem?
+            </p>
+            <a href="article.html" class="btn btn-dark">Read More</a>
+        </div>
+    </section>
+
+    <!-- articles -->
+    <section id="home-articles">
+        <div class="container py-3">
+            <h2 class="text-center letter-s text-dark font-italic">Editor Picks</h2>
+            <div class="article-container">
+                <article class="card p-3">
+                    <img src="./img/articles/ent1.jpg" class="img-fluid" alt="" srcset="" />
+                    <div>
+                        <div class="category category-ent font-weight-bold text-danger">
+                            Entertenment
+                        </div>
+                        <h3>
+                            <a href="article.html">Lorem ipsum dolor sit amet.</a>
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nemo facere explicabo ut maiores temporibus nulla quisquam quo consequatur mollitia?
+                        </p>
+                    </div>
+                </article>
+                <article class="card p-3 bg-danger text-light">
+                    <div class="category category-sports font-weight-bold text-warning">
+                        Sports
+                    </div>
+                    <h3>
+                        <a href="article.html">Lorem ipsum dolor sit amet.</a>
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nemo facere explicabo ut maiores temporibus nulla quisquam quo consequatur mollitia?
+                    </p>
+                </article>
+                <article class="card p-3">
+                    <img class="img-fluid" src="./img/articles/tech1.jpg" alt="" srcset="" />
+                    <div class="category category-tech pt-2 text-info font-weight-bold">
+                        Technology
+                    </div>
+                    <h3>
+                        <a href="article.html">Lorem ipsum dolor sit amet.</a>
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nemo facere explicabo ut maiores temporibus nulla quisquam quo consequatur mollitia?
+                    </p>
+                </article>
+                <article class="card p-3">
+                    <div class="category category-sports font-weight-bold text-warning">
+                        Sports
+                    </div>
+                    <h3>
+                        <a href="article.html">Lorem ipsum dolor sit amet.</a>
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nemo facere explicabo ut maiores temporibus nulla quisquam quo consequatur mollitia?
+                    </p>
+                    <img class="img-fluid" src="./img/articles/sports1.jpg" alt="" srcset="" />
+                </article>
+                <article class="card p-3">
+                    <img class="img-fluid" src="./img/articles/tech2.jpg" alt="" srcset="" />
+                    <div class="category category-tech pt-2 text-info font-weight-bold">
+                        Technology
+                    </div>
+                    <h3>
+                        <a href="article.html">Lorem ipsum dolor sit amet.</a>
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nemo facere explicabo ut maiores temporibus nulla quisquam quo consequatur mollitia?
+                    </p>
+                </article>
+                <article class="card p-3 bg-dark text-light">
+                    <div class="category category-sports font-weight-bold text-warning">
+                        Sports
+                    </div>
+                    <h3>
+                        <a href="article.html">Lorem ipsum dolor sit amet.</a>
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nemo facere explicabo ut maiores temporibus nulla quisquam quo consequatur mollitia?
+                    </p>
+                </article>
+                <article class="card p-3">
+                    <div>
+                        <div class="category category-ent font-weight-bold text-danger">
+                            Entertenment
+                        </div>
+                        <h3>
+                            <a href="article.html">Lorem ipsum dolor sit amet.</a>
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nemo facere explicabo ut maiores temporibus nulla quisquam quo consequatur mollitia?
+                        </p>
+                    </div>
+                    <img src="./img/articles/ent2.jpg" class="img-fluid" alt="" srcset="" />
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="main-footer">
+        <div class="footer-container bg-dark text-light p-3">
+            <div>
+                <img src="img/logo_light.png" alt="NewsGrid" />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aperiam consectetur ipsa nihil dolore perferendis.
+                </p>
+            </div>
+            <div>
+                <h3>Email Newsletter</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, corporis!
+                </p>
+                <form class="form-group">
+                    <input type="email" class="form-control" placeholder="Email" />
+                    <input type="submit" value="Subscribe" class="btn btn-primary btn-block mt-2" />
+                </form>
+            </div>
+            <div>
+                <h3>Site Links</h3>
+                <ul class="list text-left px-0">
+                    <li><a href="#">Help & Support</a></li>
+                    <li><a href="#">privacy Policy</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2>Join Our Club</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, facilis?
+                </p>
+                <a href="#" class="btn btn-danger btn-block pt-2">Join Now</a>
+            </div>
+            <div>
+                <p>Copyright &copy; 2020, All Right Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
+
+<!-- <div class="container-fluid row px-0 mx-0">
+  <div class="showcase-content container col-6 px-0 mx-0">
+    <div>SPORTS</div>
+    <h1>SOME SPORTS ARTICLE</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni libero temporibus tenetur ab aspernatur fugiat
+      architecto atque quos quasi, nulla nihil quas molestiae odio blanditiis veritatis voluptate dolore consequatur
+      reiciendis?
+    </p>
+    <a href="#" class="btn btn-dark">Read More</a>
+  </div>
+</div> -->
